@@ -197,3 +197,24 @@ h2 {
     background-color: var(--alto-contraste-fundo);
 }
 
+#filmes {
+    padding: 5rem 0;
+}
+
+#filmes .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#filmes .card:hover {
+    transform: translateY(-10px);
+}
+
+#filmes .card-img-top {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 300px;
+    object-fit: cover;
+}

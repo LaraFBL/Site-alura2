@@ -35,3 +35,4 @@ ScrollReveal().reveal('#inicio', { delay: 50 });
 ScrollReveal().reveal('#tropicalia', { delay: 50 });
 ScrollReveal().reveal('#galeria', { delay: 50 });
 ScrollReveal().reveal('#contato', { delay: 50 });
+ScrollReveal().reveal('#filmes', { delay: 50 });
